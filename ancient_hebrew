@@ -1,0 +1,55 @@
+xkb_symbols "ancient_hebrew" {
+
+
+    key <TLDE>	{[ semicolon,		asciitilde,	U05F3	]};  // geresh
+    key <AE01>	{[ 1,			exclam			]};
+    key <AE02>	{[ 2,			at			]};
+    key <AE03>	{[ 3,			numbersign,	EuroSign]};
+    key <AE04>	{[ 4,			dollar,		NewSheqelSign	]};
+    key <AE05>	{[ 5,			percent,	degree	]};
+    key <AE06>	{[ 6,			asciicircum,	U05AB	]};  // ole
+    key <AE07>	{[ 7,			ampersand,	U05BD	]};  // meteg
+    key <AE08>	{[ 8,			asterisk,	multiply]};
+    key <AE09>	{[ 9,			parenright,	U200E	]};  // LRM
+    key <AE10>	{[ 0,			parenleft,	U200F	]};  // RLM
+    key <AE11>	{[ minus,		underscore,	U05BE	]};  // maqaf
+    key <AE12>	{[ equal,		plus,		endash	]};
+
+    key <AD01>	{[ slash,		Q,		U05C2	]};  // Sin Dot
+    key <AD02>	{[ apostrophe,		W,		U05C1	]};  // Shin Dot
+    key <AD03>	{[ U10912,		E,		U05B8	]};  // Qamats
+    key <AD04>	{[ U10913,		R,		U05B3	]};  // Hataf Qamats
+    key <AD05>	{[ U10900,		T			]};
+    key <AD06>	{[ U10908,		Y,		U05F0	]};  // Yiddish Double Vav
+    key <AD07>	{[ U10905,		U,		U05B9	]};  // Holam
+    key <AD08>	{[ U1090D,		I			]};
+    key <AD09>	{[ U1090C,		O			]};
+    key <AD10>	{[ U10910,		P,		U05B7	]};  // Patah
+
+    key <AC01>	{[ U10914,		A,		U05B0	]};  // shva
+    key <AC02>	{[ U10903,		S,		U05BC	]};  // dagesh
+    key <AC03>	{[ U10902,		D			]};
+    key <AC04>	{[ U1090A,		F			]};
+    key <AC05>	{[ U1090F,		G,		U05F1	]};  // Yiddish vav yod
+    key <AC06>	{[ U10909,		H,		U05F2	]};  // Yiddish double yod
+    key <AC07>	{[ U10907,		J,		U05B4	]};  // hiriq
+    key <AC08>	{[ U1090B,		K			]};
+    key <AC09>	{[ U1090A,		L,		rightdoublequotemark	]};
+    key <AC10>	{[ U10910,		colon,		doublelowquotemark	]};
+
+    key <AB01>	{[ U10906,		Z			]};
+    key <AB02>	{[ U1090E,		X,		U05B6	]};  // segol
+    key <AB03>	{[ U10901,		C,		U05B1	]};  // hataf segol
+    key <AB04>	{[ U10904,		V			]};
+    key <AB05>	{[ U1090D,		B,		none,		U05C6	]};  // nun hafukha
+    key <AB06>	{[ U1090C,		N			]};
+    key <AB07>	{[ U10911,		M,		U05B5	]};  // tsere
+    key <AB08>	{[ U10915,		greater,	rightsinglequotemark	]};
+    key <AB09>	{[ U10911,		less,		singlelowquotemark	]};
+
+    key <AD11>	{[ bracketright,	braceright,	U05B2	]}; // Hataf Patah
+    key <AD12>	{[ bracketleft,		braceleft,	U05BF	]}; // Rafe
+    key <AC11>	{[ comma,		quotedbl,	U05F4	]}; // Gershayim
+    key <BKSL>	{[ backslash,		bar,		U05BB	]}; // Qubuts
+    key <AB10>  {[ period,              question,       division]}; 
+};
