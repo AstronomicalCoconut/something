@@ -1,4 +1,4 @@
-# something 
+# some help with this
 
 In order to use this, you must put the "ancient_hebrew" file into /usr/share/X11/xkb/symbols  
 
